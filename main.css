@@ -1,4 +1,88 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+html{
+    font-size: 20px;
+}
 body{
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
+    font-size: calc(20px + 6 * ((100vw - 320px) / 680));
+}
+h1{
+    margin: 0;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 7vh;
+    margin: 1.5rem 0 2rem 0;
+    position: relative;
+}
+img{
+    height: 100%;
+}
+ul{
+   display: flex;
+   padding: 0;
+   list-style-type: none;
+   flex-direction: row;
+   align-content: center;
+}
+li{
+    margin-left: 2rem;
+    
+}
+main{
+    margin: 0 3rem 0 3rem;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+}
+#hero > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    margin: 4rem 0 4rem 0;
+}
+.social img{
+    margin-right: 2rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.253) 2px 2px 8px;
+}
+#hero figure img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#hero figure{
+    margin: 0;
+}
+@media (min-width: 500px) and (max-width: 800px){
+   
+
+}
+@media (min-width: 960px){
+    main{
+        margin: 0 10rem 0 10rem;
+    }
+    #hero{
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    #hero div{
+        margin-right: 6rem;
+    }
+    figure{
+        width: 70%;
+    }
+    
 }
