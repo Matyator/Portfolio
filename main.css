@@ -55,18 +55,18 @@ main{
 }
 .social{
     position: relative;
-    display: flex;
-    flex-direction: row;
-    height: 3rem;
+    height: 3.2rem;
     margin: 2rem 0 3rem 0;
 }
 .social img{
-    margin-right: 2rem;
+    margin-right: 0.6rem;
     border-radius: 50%;
+ 
    
 }
-.social img:last-child{
-    border: solid rgb(218, 218, 218) 2px;
+.social a:last-child img{
+    border: solid rgba(218, 218, 218, 0.774) 2px;
+    margin: 0;
 }
 #hero figure img{
     position: relative;
